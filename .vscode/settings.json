@@ -1,0 +1,37 @@
+{
+  "python.defaultInterpreterPath": "venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.typeCheckingMode": "strict",
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "python.formatting.provider": "black",
+  "editor.defaultFormatter": null,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.fontSize": 16,
+  "editor.wordWrapColumn": 80,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wrappingIndent": "same",
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": false,
+  "editor.cursorStyle": "line",
+  "editor.codeLens": false,
+  "editor.autoClosingDelete": "never",
+  "editor.smoothScrolling": true,
+  "window.zoomLevel": 0,
+  "terminal.integrated.fontSize": 16,
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "code-runner.ignoreSelection": true,
+  "git.ignoreLimitWarning": true,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  // "python.linting.pylintArgs": [
+  //   "--init-hook",
+  //   "import sys; sys.path.append('//desktop/project/sw_design/z_ml_pipeline')"
+  // ]
+}
